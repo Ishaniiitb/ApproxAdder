@@ -1,5 +1,7 @@
 # Design and Analysis of an Approximate Adder with Hybrid Error Reduction
 
+This project implements a **16-bit Carry Lookahead Adder (CLA)** using Verilog HDL. The design is part of a study into **approximate computing** for improving performance, power, and area efficiency in digital arithmetic circuits.
+
 The above project is a VLSI design project which involved working on transistor 
 level technology and approximation computing in order to perform a comparative 
 study of different kinds of approximate adder circuits. Furthermore, we try 
@@ -19,6 +21,26 @@ performance, making it a competitive solution for error-tolerant applications.
 - ECPETA
 - ETAI
 
+## 🔧 Tools Used
+
+- Verilog – Hardware description language
+- Icarus Verilog – Simulation
+- GTKWave – Waveform viewing
+- Cadence Genus – Logic synthesis
+- Linux CLI – Compilation and execution
+
+## 📄 Documentation
+See DCMOSproject.pdf for the overall design concept.
+See Report.pdf for the full technical report and analysis.
+Synthesis results are available in the Reports/ folder.
+
+## 🚀 Features
+
+- 16-bit Carry Lookahead Adder (CLA) design
+- Includes testbench for simulation
+- Synthesized design optimized using Cadence Genus
+- Cell library for synthesis compatibility
+- Waveform generation using `$dumpfile` and `$dumpvars`
 
 ## Extras
 
