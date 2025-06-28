@@ -31,7 +31,9 @@ performance, making it a competitive solution for error-tolerant applications.
 
 ## 📄 Documentation
 See DCMOSproject.pdf for the overall design concept.
+
 See Report.pdf for the full technical report and analysis.
+
 Synthesis results are available in the Reports/ folder.
 
 ## 🚀 Features
